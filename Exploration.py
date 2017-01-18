@@ -28,23 +28,6 @@ Technology codes:
                     2 --> Heat pump air/water
                     3 --> Gas central
                     4 --> District Heating (DH)
-pv: Present value of the investment
-z: Interest rate
-lt: Lifetime
-accf: Annual capital cost factor
-acc: Annual capital cost
-opc: Operation costs
-fp: fuel price
-p: Required power [kW]
-d: Demand [MWh]
-uic: Unit investment cost [EUR/kW]
-ep: Energy Price [EUR/MWh]
-gga: Gas grid access [boolean]
-dha: District heating access [boolean]
-hs: Heat source --> 1: Gas central
-                    2: District Heating
-                    3: Heat pump air/water
-                    4: District heating Vienna
 ==============================================================================================================                    
 '''
 def JoinLayers(input_joinLyr, joinField, input_vectorLyr, targetField, outputPath):
